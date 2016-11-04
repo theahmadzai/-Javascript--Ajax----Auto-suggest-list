@@ -210,6 +210,6 @@ if(!empty($_GET['search']))
             $count++;
         }
     }
-    echo $result === '' ? '<p>This country is not exists in the earth!</p>' : $result;
+    echo $result === '' ? '<p>Invalid Country!</p>' : $result;
 }
 
