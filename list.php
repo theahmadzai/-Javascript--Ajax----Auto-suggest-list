@@ -210,6 +210,6 @@ if(!empty($_GET['search']))
             $count++;
         }
     }
-    echo $result === '' ? '<p>Invalid Country!</p>' : $result;
+    echo $result === '' ? '<p>Not found!</p>' : $result;
 }
 
